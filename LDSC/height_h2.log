@@ -1,0 +1,33 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 /scratch/c.c21013066/data/tutorial/LDSC/height.sumstats.gz \
+--ref-ld-chr /scratch/c.c21013066/data/atlas/LDScore/eur_w_ld_chr/ \
+--out /scratch/c.c21013066/data/tutorial/LDSC/height_h2 \
+--w-ld-chr /scratch/c.c21013066/data/atlas/LDScore/eur_w_ld_chr/ 
+
+Beginning analysis at Thu Aug 26 10:49:00 2021
+Reading summary statistics from /scratch/c.c21013066/data/tutorial/LDSC/height.sumstats.gz ...
+Read summary statistics for 69377 SNPs.
+Reading reference panel LD Score from /scratch/c.c21013066/data/atlas/LDScore/eur_w_ld_chr/[1-22] ...
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /scratch/c.c21013066/data/atlas/LDScore/eur_w_ld_chr/[1-22] ...
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 68595 SNPs remain.
+After merging with regression SNP LD, 68595 SNPs remain.
+WARNING: number of SNPs less than 200k; this is almost always bad.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.5343 (0.0168)
+Lambda GC: 3.9708
+Mean Chi^2: 4.6704
+Intercept: 1.8367 (0.0432)
+Ratio: 0.228 (0.0118)
+Analysis finished at Thu Aug 26 10:49:07 2021
+Total time elapsed: 7.09s

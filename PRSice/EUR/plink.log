@@ -1,0 +1,15 @@
+PLINK v1.90p 64-bit (29 Apr 2019)
+Options in effect:
+  --file EUR.QC
+  --pheno EUR.height
+
+Hostname: ccs9022
+Working directory: /scratch/c.c21013066/data/tutorial/PRSice/EUR
+Start time: Thu Aug 26 12:33:01 2021
+
+Random number seed: 1629977581
+191863 MB RAM detected; reserving 95931 MB for main workspace.
+Error: Basic file conversions do not support regular filtering operations.
+Rerun your command with --make-bed.
+
+End time: Thu Aug 26 12:33:01 2021
