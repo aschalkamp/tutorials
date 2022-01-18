@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32gb
 #SBATCH --account=scw1329
-#SBATCH --time=00:10:00 # Time limit hh:mm:ss
+#SBATCH --time=01:00:00 # Time limit hh:mm:ss
 #SBATCH -o /scratch/c.c21013066/log/ldsc/%x-%A-%a.out
 #SBATCH -e /scratch/c.c21013066/log/ldsc/%x-%A-%a.err
 #SBATCH --job-name=tutorial # Descriptive job name
